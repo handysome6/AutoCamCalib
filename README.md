@@ -8,7 +8,7 @@ python -m hik.gui
 
 PTS (Pan Tilt Station) Testing Tool:
 ```
-python -m pts
+python -m pts --port <SERIAL_PORT>
 ```
 
 Auto capture GUI with PTS:

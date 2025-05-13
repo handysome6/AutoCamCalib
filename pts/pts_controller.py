@@ -160,9 +160,10 @@ class PTSController(PelcoDController):
             return False
 
 
-def main():
+def main(port="COM4"):
+    logger.info(f"使用端口: {port}")
     # 创建控制器实例
-    controller = PTSController()
+    controller = PTSController(port=port)
     
     try:
         while True:
@@ -216,4 +217,4 @@ def main():
         print("程序已退出")
 
 if __name__ == "__main__":
-    main()
+    main(port="COM4")
