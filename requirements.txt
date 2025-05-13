@@ -1,0 +1,5 @@
+PySide6
+loguru
+numpy
+pyserial
+opencv-python
